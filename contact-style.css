@@ -1,0 +1,198 @@
+html {
+    overflow: auto;
+}
+
+.container{
+    width: 90%;
+    margin: 0;
+    padding: 20px;
+}
+
+header{
+    background-color: #1f2937;
+    font-family: sans-serif;
+}
+
+header::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.logo{
+    float: inline-start;
+}
+
+.navbar{
+    float: right;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 10px;
+    position: relative;
+}
+
+nav a{
+    color: #f9faf8;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: #3882f6;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 100vh;
+    width: 100vw;
+}
+
+.about-title{
+    font-size: 56px;
+    text-transform: uppercase;
+    text-decoration: solid;
+    text-decoration: underline;
+    padding-left: 55px;
+    text-shadow: 2px 2px 2px #CCCCCC;
+}
+
+.list{
+    font-size: 38px;
+    letter-spacing: 2.5px;
+    line-height: 75px;
+    padding-left: 100px;
+    padding-right: 10px;
+}
+
+ul li::marker{
+    content: "\2728";
+}
+
+body {
+    background-color: #1f2937;
+  }
+  
+  #title-Tag-Line {
+    font-size: 20px;
+  }
+
+  .form {
+    background: #fff;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    border-radius: 5px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border-top: 5px solid #f9faf8;
+    animation: bounce 1.5s infinite;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 1.3em;
+  }
+  
+  .title{
+    display: block;
+    font-family: sans-serif;
+    margin: 10px auto 5px;
+    width: 300px;
+  }
+  .termsConditions{
+    margin: 0 auto 5px 80px;
+  }
+  
+  .pageTitle{
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .secondaryTitle{
+    color: grey;
+  }
+  
+  .name {
+    background-color: #ebebeb;
+    color: black;
+  }
+  .name:hover {
+    border-bottom: 5px solid #1f2937;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .email {
+    background-color: #ebebeb;
+    height: 2em;
+  }
+  
+  .email:hover {
+    border-bottom: 5px solid #1f2937;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .message {
+    background-color: #ebebeb;
+    overflow: hidden;
+    height: 10rem;
+  }
+  
+  .message:hover {
+    border-bottom: 5px solid #1f2937;
+    height: 12em;
+    width: 380px;
+    transition: ease 0.01s;
+  }
+  
+  .formEntry {
+    display: block;
+    margin: 30px auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .submit {
+    width: 200px;
+    color: white;
+    background-color: #3882f6;
+    font-size: 20px;
+  }
+  
+  .submit:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    transform: translateY(-3px);
+    width: 300px;
+    border-top: 5px solid #1f2937;
+    border-radius: 0%;
+  }
+  
+  @keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  } 
+  
+  
