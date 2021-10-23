@@ -1,9 +1,6 @@
 html {
     overflow: auto;
 }
-
-@media screen and (max-width: 980px) {
-    
 .container{
     width: 90%;
     margin: 0;
@@ -146,5 +143,4 @@ button:hover{
     padding: 10px;
     text-align: center;
     color: #fff;
-}
 }
