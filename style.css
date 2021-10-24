@@ -3,8 +3,8 @@ html {
 }
 .container{
     width: 90%;
-    margin: 0;
-    padding: 20px;
+    margin: 1%;
+    padding: 1vw;
 }
 
 header{
@@ -27,14 +27,14 @@ header::after{
 }
 
 ul{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     list-style-type: none;
 }
 
 nav li{
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 10vw;
     padding-top: 10px;
     position: relative;
 }
@@ -43,7 +43,7 @@ nav a{
     color: #f9faf8;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 1.5vw;
 }
 
 nav a:hover{
@@ -64,17 +64,12 @@ nav a:hover{
     color: #f9faf8;
 }
 
-@media (max-width: 600px) {
-  img {
-    width: 100%; 
-  }
-}
 
 .main-img{
     position: absolute;
-    top: 15%;
-    right: 15%;
-    margin: 10px 10px;
+    top: 4%;
+    right: 20%;
+    margin: 5% 1%;
     display: inline-block;
     width: 13%;
     height: auto;
@@ -82,29 +77,31 @@ nav a:hover{
 
 .quote{
     background-color: #e5e7eb;
-    text-align: center;    font-style: italic;
-    font-size: 36px;
+    text-align: center;    
+    font-style: italic;
+    font-size: 2em;
     color: #1F2937;
     font-family: sans-serif;
-    margin-right: 200px;
-    margin-left: 200px;
-    margin-top: 100px;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 3%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 2%;
     border-radius: 10px;
+    display: block;
+    justify-content: center;
 }
 
 b{
     background-color: #E5E7EB;
     font-style: normal;
     display: block;
-    margin:50px;
-    text-align: right;
-}
-
-b{
-    background-color: #E5E7EB;
-    font-style: normal;
-    display: block;
-    margin:50px;
+    margin: 0;
+    padding-top: 1%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
     text-align: right;
 }
 
@@ -113,10 +110,16 @@ button{
     background-color: #0d5ee0;
     color: #F9FAF8;
     border:none;
-    padding: 8px 16px;
-    text-align: center;
-    font-size: 16px;
-    max-width: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 1vw;
+    margin-bottom: 1%;
+    font-size: 1em;
+    max-width: auto;
+    display: inline-block;
+    align-content: center;
 }
 
 button:hover{
@@ -128,14 +131,19 @@ button:hover{
     text-align: center;
     font-family: sans-serif;
     color: white;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 10px 50px;
-    align-items: center;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-top: 1%;
     border-radius: 10px;
+    align-items: center;
     text-transform: uppercase;
+    display: block;
+    justify-content: center;
 }
 
 .footer{
